@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="http://bootswatch.com/darkly/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+		#para1{
+	box-sizing: border-box;
+	padding: 12.5% 20%;
+	background: #203f60;
+	color: #c1dfff;
+	text-align: justify;
+}
+
+#space1{
+	padding: 2.5% 20%;
+	background: #bf4bd1;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Mogra', cursive;
+}
+
+#space2{
+	padding: 2.5% 20%;
+	background: #ff353c;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Mogra', cursive;
+}
+
+#space3{
+	padding: 2.5% 20%;
+	background: #00e1ff;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Mogra', cursive;
+	color: #000;
+}
+
+#space1:hover,#space2:hover{
+	color: #00e1ff;
+	opacity: 0.7;
+	font-size: 65px;
+}
+
+.portImg1{
+	margin-top: 10%;
+	width: 80%;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.portImg2{
+	width: 80%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	opacity: 0.7;
+}
+
+.portImg1:hover, .portImg2:hover{
+	opacity: 1;
+}
+
+.modalImg{
+	width: 100%;
+}
+
+.boxImg{
+	background: #337558;
+}
+
+#contImg1, #contImg2, #contImg3{
+	box-sizing: border-box;
+	background: #1c8cb4;
+	font-family: 'Mogra',cursive;
+	font-size: 25px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+	color: #000;
+}
+
+#contImg1{
+	background: #1c8cb4;
+}
+
+#contImg2{
+	background: #fff;
+}
+
+#contImg3{
+	background: #3b5998;
+}
+
+#contImg1:hover, #contImg2:hover, #contImg3:hover{
+	font-size: 50px;
+}
+
+.contact:hover{
+	font-size: 55px;
+}
+
+.footer1{
+	padding: 10% 35%;
+	color: #fff;
+	font-family: 'Mogra', cursive;
+	font-size:18px;
+}
+
+.footer1:hover{
+	font-size: 25px;
+}
+	</style>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+  
+      <!-- start collapsed navbar-->
+      <div class="navbar-header">
+        <button 
+        type="button" 
+        class="navbar-toggle collapsed glyphicon glyphicon-list" 
+        data-toggle="collapse" 
+        data-target="#main_navbar" 
+        aria-expanded="false"></button>
+      </div><!-- / collapsed navbar-->
+      <a class="navbar-brand" target="_blank" href="http://linkedin.com/in/jeevan-prakash-19197b124">Jeevan Prakash</a>
+
+      <!-- start un-collapsed navbar-->
+      <div 
+         class="collapse navbar-collapse" 
+         id="main_navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">About</a></li>
+          <li><a href="#space2">Portfolio</a></li>
+          <li><a href="#space3">Contact</a></li>
+        </ul>
+      </div><!-- / un-collapsed navbar-->
+
+    </div> <!-- /container -->
+  </nav>
+
+  <div class="row">
+    <div id="space1" class="col-xs-12">About</div>
+  </div>
+
+  <div class="row">
+    <div id="para1">
+      Hello World! <br>
+I am student of Northern India Engineering College, Guru Gobind Singh Indraprastha University, New Delhi. I am pursuing Bachelor of Technology in Computer Science and currently living in New Delhi, India. I am a self-learning web developer having hands on skills in HTML5, CSS, bootstrap, JavaScript, jQuery, currently working on AngularJS. I have made minor projects on ereader with night mode, dynamic Image Gallery using moustache handlebar template. These work samples can be seen at my Github profile link (see <a href="#space3"> Contact </a> section below). I have completed two certification courses on front end web development. First course having name “Responsive Website Basics: Code with HTML, CSS, and JavaScript” and “Responsive web design”. I have also learned and completed HTML, CSS, JavaScript and jQuery from Codecademy. I have made my tribute page on one of the great mathematician Srinivas Ramanujan – a true lover of mathematics. I have joined freecodecamp in February this year. I learned as well as practiced many new things here at FCC. I want to thank whole team of Freecodecamp for providing such a good platform to the budding coders.
+
+    </div>
+  </div>
+
+  <div class="row">
+      <div id="space2" class="col-xs-12">Portfolio</div>
+  </div>
+
+  <div class="row" data-target="#modal1" data-toggle="modal">
+    <center>
+      <div class="col-lg-6 col-md-6 boxImg">
+        <img class="portImg1" src="https://s14.postimg.org/tdf78v71t/course1.jpg"/>
+      </div>
+    </center>
+
+    <!--modal for first image -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+       <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-header">Verify Certificate: <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/DYJ4J4B955CV"><div class="btn btn-primary">Coursera</div></a>
+         </div>
+
+        <div class="modal-content">
+          <img class="modalImg" src="https://s14.postimg.org/tdf78v71t/course1.jpg"/>
+        </div>
+      </div>
+    </div>
+    
+    <center>
+      <div class="col-lg-6 col-md-6 boxImg">
+        <img class="portImg1" src="https://s14.postimg.org/ju5ifejjl/course2.jpg"/>
+      </div>
+    </center>
+
+    <!--modal for second image -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+       <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-header">Verify Certificate: <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/928MFWJEWFMV"><div class="btn btn-primary">Coursera</div></a>
+        </div>
+
+        <div class="modal-content">
+          <img class="modalImg" src="https://s14.postimg.org/ju5ifejjl/course2.jpg"/>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <center>
+      <div class="col-lg-6 col-md-6 boxImg">
+        <a target="_blank" href="https://codepen.io/JeevanPrakash/full/WjxJxr/"><img class="portImg2" src="https://s14.postimg.org/4mu48sh2p/Ramanujan.jpg"/></a>
+      </div>
+    </center>
+
+    <center>
+      <div class="col-lg-6 col-md-6 boxImg">
+        <img class="portImg2" src="https://s14.postimg.org/gkr38xvg1/coming_Soon2.jpg"/>
+      </div>
+    </center>
+  </div>
+
+  <div class="row">
+    <div id="space3" class="col-xs-12">Contact</div>
+  </div>
+
+  <div class="row">
+      <a target="_blank" href="http://linkedin.com/in/jeevan-prakash-19197b124">
+        <div class="col-md-4 col-lg-4" id="contImg1">
+          <div>Linkedin</div>
+          <img alt="Linkedin Icon" src="https://image.flaticon.com/icons/svg/61/61109.svg" height="40px"/>
+        </div>
+      </a>
+
+      <a target="_blank" href="https://github.com/jeevan-jp">
+        <div class="col-md-4 col-lg-4" id="contImg2">
+            <div>Github</div>
+            <img alt="Github Icon" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="40px"/>
+        </div>
+      </a>  
+
+      <a target="_blank" href="https://www.facebook.com/JeevanPrakashJha">
+        <div class="col-md-4 col-lg-4" id="contImg3">
+          <div>Facebook</div>
+          <img alt="Facebook Icon" src="http://www.dragsteruk.com/social%20logos/facebook.png" height="40px"/>
+        </div>
+      </a>
+  </div>
+
+  <div class="row footer1">
+    <center>
+      <div style="margin: 10px 0">Do not copy. Atleast try buddy!</div>
+      <div><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2017 Made by Jeevan Prakash</div>
+    </center>
+  </div>
+
+  <!-- javascript CDN's-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

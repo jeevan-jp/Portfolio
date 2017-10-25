@@ -33,7 +33,7 @@
         data-target="#main_navbar" 
         aria-expanded="false"></button>
       </div><!-- / collapsed navbar-->
-      <a class="navbar-brand" target="_blank" href="http://linkedin.com/in/jeevan-prakash-19197b124">Jeevan Prakash</a>
+      <a class="navbar-brand" id="name" target="_blank" href="https://www.linkedin.com/in/jeevan-prakash/">Jeevan Prakash</a>
 
       <!-- start un-collapsed navbar-->
       <div 
@@ -41,8 +41,8 @@
          id="main_navbar">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="index.html">About</a></li>
-          <li><a href="#space2">Portfolio</a></li>
-          <li><a href="#space3">Contact</a></li>
+          <li><a id="portfolio">Portfolio</a></li>
+          <li><a id="contact">Contact</a></li>
         </ul>
       </div><!-- / un-collapsed navbar-->
 
@@ -56,7 +56,7 @@
   <div class="row">
     <div id="para1">
       Hello World! <br>
-I am student of Northern India Engineering College, Guru Gobind Singh Indraprastha University, New Delhi. I am pursuing Bachelor of Technology in Computer Science and currently living in New Delhi, India. I am a self-learning web developer having hands on skills in HTML5, CSS, bootstrap, JavaScript, jQuery, currently working on AngularJS. I have made minor projects on ereader with night mode, dynamic Image Gallery using moustache handlebar template. These work samples can be seen at my Github profile link (see <a href="#space3"> Contact </a> section below). I have completed two certification courses on front end web development. First course having name “Responsive Website Basics: Code with HTML, CSS, and JavaScript” and “Responsive web design”. I have also learned and completed HTML, CSS, JavaScript and jQuery from Codecademy. I have made my tribute page on one of the great mathematician Srinivas Ramanujan – a true lover of mathematics. I have joined freecodecamp in February this year. I learned as well as practiced many new things here at FCC. I want to thank whole team of Freecodecamp for providing such a good platform to the budding coders.
+I am student of Northern India Engineering College, Guru Gobind Singh Indraprastha University, New Delhi. I am pursuing Bachelor of Technology in Computer Science and currently living in New Delhi, India. I am a self-learning web developer having hands on skills in HTML5, CSS, bootstrap, JavaScript, jQuery, currently working on AngularJS. I have made minor projects on ereader with night mode, dynamic Image Gallery using moustache handlebar template. These work samples can be seen at my Github profile link (see <a id="contact_para"> Contact </a> section below). I have completed two certification courses on front end web development. First course having name “Responsive Website Basics: Code with HTML, CSS, and JavaScript” and “Responsive web design”. I have also learned and completed HTML, CSS, JavaScript and jQuery from Codecademy. I have made my tribute page on one of the great mathematician Srinivas Ramanujan – a true lover of mathematics. I have joined freecodecamp in February this year. I learned as well as practiced many new things here at FCC. I want to thank whole team of Freecodecamp for providing such a great platform to the budding coders.
 
     </div>
   </div>
@@ -132,7 +132,7 @@ I am student of Northern India Engineering College, Guru Gobind Singh Indraprast
   </div>
 
   <div class="row">
-      <a target="_blank" href="http://linkedin.com/in/jeevan-prakash-19197b124">
+      <a target="_blank" href="https://www.linkedin.com/in/jeevan-prakash/">
         <div class="col-md-4 col-lg-4" id="contImg1">
           <div>Linkedin</div>
           <img alt="Linkedin Icon" src="https://image.flaticon.com/icons/svg/61/61109.svg" height="40px"/>
@@ -157,16 +157,13 @@ I am student of Northern India Engineering College, Guru Gobind Singh Indraprast
   <div class="row footer1">
     <center>
       <div style="margin: 10px 0">Do not copy. Atleast try buddy!</div>
-      <div><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2017 Made by Jeevan Prakash</div>
+      <div>Copyright <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2017 Made by Jeevan Prakash</div>
     </center>
   </div>
 
   <!-- javascript CDN's-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script>
-    var h = $(window).height()-20;
-    $('#iframe1').css('height',h);
-  </script>
+  <script src="js/script.js"></script>
   </body>
 </html>

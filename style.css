@@ -1,0 +1,114 @@
+#para1{
+	box-sizing: border-box;
+	padding: 12.5% 20%;
+	background: #203f60;
+	color: #c1dfff;
+	text-align: justify;
+}
+
+#para1:hover {
+  color: white;
+}
+
+#portfolio:hover, #contact:hover, #name:hover {
+	cursor: pointer;
+    color: red;
+}
+
+#space1{
+	padding: 2.5% 20%;
+	background: #87db00;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Mogra', cursive;
+  color: blue;
+}
+
+#space2{
+	padding: 2.5% 20%;
+	background: #ef0000;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Mogra', cursive;
+}
+
+#space3{
+	padding: 2.5% 20%;
+	background: #00e1ff;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Mogra', cursive;
+	color: #000;
+}
+
+#space1:hover {
+  color: black;
+}
+
+#space2:hover{
+  color: #00e1ff;
+}
+
+#space3:hover {
+	color: red;
+}
+
+.portImg1{
+	margin-top: 10%;
+	width: 80%;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.portImg2{
+	width: 80%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	opacity: 0.7;
+}
+
+.portImg1:hover, .portImg2:hover{
+	opacity: 1;
+}
+
+.boxImg{
+	background: #337558;
+}
+
+#contImg1, #contImg2, #contImg3{
+	box-sizing: border-box;
+	background: #1c8cb4;
+	font-family: 'Mogra',cursive;
+	font-size: 25px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+	color: #000;
+}
+
+#contImg1{
+	background: #1c8cb4;
+}
+
+#contImg2{
+	background: #fff;
+}
+
+#contImg3{
+	background: #3b5998;
+}
+
+#contImg1:hover, #contImg2:hover, #contImg3:hover{
+	font-size: 50px;
+}
+
+.contact:hover{
+	font-size: 55px;
+}
+
+.footer1{
+	padding: 10% 35%;
+	color: #fff;
+	font-family: 'Mogra', cursive;
+	font-size:18px;
+}
